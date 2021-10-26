@@ -4,7 +4,6 @@ import "html/template"
 
 type Starter struct {
 	Installed []StarterLink
-	Resources []StarterLink
 }
 
 type StarterLink struct {
