@@ -11,7 +11,6 @@ import (
 
 func ssatemplate(p kyoto.Page) *template.Template {
 	return mktemplate("SSA")
-	// return template.Must(template.New("SSA").Funcs(kyoto.TFuncMap()).ParseGlob("*.html"))
 }
 
 func ssahandler() http.HandlerFunc {
@@ -34,10 +33,10 @@ func main() {
 
 	// Run
 	if os.Getenv("PORT") == "" {
-		log.Println("Listening on localhost:25025")
+		log.Println("Listening on http://localhost:25025")
 		http.ListenAndServe("localhost:25025", nil)
 	} else {
-		log.Println("Listening on 0.0.0.0:" + os.Getenv("PORT"))
+		log.Println("Listening on http://0.0.0.0:" + os.Getenv("PORT"))
 		http.ListenAndServe(":"+os.Getenv("PORT"), nil)
 	}
 }
