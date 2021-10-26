@@ -1,0 +1,32 @@
+{{ define "Starter" }}
+<div class="w-full h-screen flex items-start">
+    <!-- Navigation -->
+    <div class="w-full md:w-1/2 p-4 md:p-32">
+        <!-- Title -->
+        <div class="text-center text-4xl font-black">Your project setup is ready!</div>
+        <!-- Things installed -->
+        <div class="mt-12">
+            <div class="text-lg font-semibold">This bundle includes:</div>
+            <div class="mt-4 flex flex-col gap-4">
+                {{ range .Installed }}
+                    <a href="{{ .Href }}" target="_blank" class="p-4 flex items-center gap-4 bg-gray-100 hover:bg-gray-200">
+                        <!-- Icon -->
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            {{ .Icon }}
+                        </div>
+                        <!-- Content -->
+                        <div>
+                            <div class="text-lg font-bold">{{ .Title }}</div>
+                            <div class="text-sm">{{ .Description }}</div>
+                        </div>
+                    </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    <!-- Image -->
+    <div class="hidden md:flex w-1/2 pt-32 pl-16 pr-32 items-center justify-center">
+        <img src="/static/img/arts/dev.svg" alt="dev">
+    </div>
+</div>
+{{ end }}
