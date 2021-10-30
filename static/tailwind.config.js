@@ -5,7 +5,7 @@ module.exports = {
     purge: [
         "../*.go",
         "../*.html",
-        "../twui/*.html",
+        "../uikit/twui/*.html",
     ],
     mode: 'jit',
     darkMode: 'media', // or 'media' or 'class'

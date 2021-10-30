@@ -33,7 +33,7 @@ func (p *PageIndex) Init() {
 			},
 			{
 				Icon:        `<img src="/static/img/icons/uikit.svg" class="ml-0.5 h-6 w-6" />`,
-				Title:       "Kyoto UIKit (Tailwind UI)",
+				Title:       "Kyoto UIKit",
 				Description: "Set of components for rapid development",
 				Href:        "https://github.com/yuriizinets/kyoto-uikit",
 			},
