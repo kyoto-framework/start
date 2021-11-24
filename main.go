@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/yuriizinets/kyoto"
+	"github.com/kyoto-framework/kyoto"
 )
 
 func ssatemplate(p kyoto.Page) *template.Template {
-	return mktemplate("SSA")
+	return newtemplate("SSA")
 }
 
 func main() {

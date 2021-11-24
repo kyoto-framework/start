@@ -6,13 +6,13 @@
 
 ## What's included
 
-- [kyoto](https://github.com/yuriizinets/kyoto)
-- [kyoto uikit](https://github.com/yuriizinets/kyoto-uikit)
+- [kyoto](https://github.com/kyoto-framework/kyoto)
+- [kyoto uikit](https://github.com/kyoto-framework/uikit)
 - [tailwindcss](https://tailwindcss.com)
 
 ## How to use
 
-- Clone project with `git clone --recursive https://github.com/yuriizinets/kyoto-starter <app name>` (replace `<app name>` with desired app name)
+- Clone project with `git clone --recursive https://github.com/kyoto-framework/starter <app name>` (replace `<app name>` with desired app name)
 - Install dependencies for statics with executing `npm i` in static folder
 - Build statics with executing `npm run build` in static folder
 
