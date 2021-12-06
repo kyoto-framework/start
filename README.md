@@ -15,7 +15,7 @@
 - Clone project with `git clone --recursive https://github.com/kyoto-framework/starter <app name>` (replace `<app name>` with desired app name)
 - Install dependencies for statics with executing `npm i` in static folder
 - Build statics with executing `npm run build` in static folder
-- And execute `go run *.go` in the root to start the server
+- And execute `go run .` in the root to start the server
 
 ## Support
 
