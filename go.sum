@@ -1,0 +1,17 @@
+github.com/kyoto-framework/i18n v0.0.0-20220407073653-0a4fc6b7f130 h1:JGHQrJd77esLbcyQvgW3OBsGIS+afPINEH+hRj5Hpyo=
+github.com/kyoto-framework/i18n v0.0.0-20220407073653-0a4fc6b7f130/go.mod h1:awu7TIgRhKdL+I6TSWNyVakP8jE0pbIjMz4mh06YgME=
+github.com/kyoto-framework/kyoto v0.2.0 h1:f+6C3XlNwHNPC6ENcg+SGv4eF5yvMvbFWBOtoxSSSEY=
+github.com/kyoto-framework/kyoto v0.2.0/go.mod h1:SmGi4PhmKsD5bYJ9FKtFLFqzGeCtRHlCZuvuOnQ3FQg=
+github.com/kyoto-framework/kyoto v0.2.1-0.20220410124033-0d16c397f65f h1:3REb+DpB7nS1Gw2BF/7ovEGAtGsqxUjWdlP9bBVyKP8=
+github.com/kyoto-framework/kyoto v0.2.1-0.20220410124033-0d16c397f65f/go.mod h1:jElmInSSZJp9YWCfZuIZyDTZdhrPCSdVK0yh9Cm846U=
+github.com/kyoto-framework/scheduler v0.0.0-20220208110634-a2f0babca15f h1:NU2Avx6TXV0wUGhamVT3ywEUfN8CW9ykYj14v/936V8=
+github.com/kyoto-framework/scheduler v0.0.0-20220208110634-a2f0babca15f/go.mod h1:hJ7obZkOy4OXQFpzwoFWG82T56Sx9BIrmiEX+y3JFfM=
+github.com/kyoto-framework/zen v0.0.0-20220408163909-add65cb11c5d h1:YhMiHSgJUXW4Cp65q8gvYHkuRb93Xicbp+redvmlxJs=
+github.com/kyoto-framework/zen v0.0.0-20220408163909-add65cb11c5d/go.mod h1:MLXuSpmhQdT6PSqYQHcNPUBEfSGbMggeJKICBmMZfq4=
+golang.org/x/exp v0.0.0-20220328175248-053ad81199eb h1:pC9Okm6BVmxEw76PUu0XUbOTQ92JX11hfvqTjAV3qxM=
+golang.org/x/exp v0.0.0-20220328175248-053ad81199eb/go.mod h1:lgLbSvA5ygNOMpwM/9anMpWVlVJ7Z+cHWq/eFuinpGE=
+golang.org/x/text v0.3.7 h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=
+golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
+gopkg.in/yaml.v2 v2.4.0/go.mod h1:RDklbk79AGWmwhnvt/jBztapEOGDOx6ZbXqjP6csGnQ=

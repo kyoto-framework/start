@@ -1,0 +1,42 @@
+{{ define "ComponentQuickstart" }}
+<div class="w-full flex items-start">
+    <!-- Navigation -->
+    <div class="w-full lg:w-1/2 lg:pr-32">
+        <!-- Title -->
+        <div class="text-4xl">Your project setup is ready!</div>
+        <!-- Things installed -->
+        <div class="mt-12">
+            <div class="text-lg">This bundle includes:</div>
+            <div class="mt-4 flex flex-col gap-4">
+                {{ range .Conf.Installed }}
+                    <a href="{{ .Href }}" target="_blank" class="p-4 flex items-center gap-4 bg-gray-100 hover:bg-gray-200">
+                        <!-- Icon -->
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            {{ .Icon }}
+                        </div>
+                        <!-- Content -->
+                        <div>
+                            <div class="text-lg font-bold">{{ .Title }}</div>
+                            <div class="text-sm">{{ .Text }}</div>
+                        </div>
+                    </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    <!-- Image + Notes -->
+    <div class="w-full lg:w-1/2">
+        <!-- Image -->
+        <img src="/static/img/arts/code.svg" alt="code">
+        <!-- Notes -->
+        <div class="mt-12">
+            <ul class="mt-4 list-disc list-inside text-sm">
+                <li>Now you can remove Quickstart component from page initialization and file system</li>
+                <li>For building all statics, just execute <code class="px-1 bg-gray-200">npm run build</code> in static folder</li>
+                <li>For building CSS in watch mode, you can run <code class="px-1 bg-gray-200">npm run build:css:w</code> in static folder</li>
+                <li>After adding new images to static/img folder, you'll need to execute <code class="px-1 bg-gray-200">npm run build:img</code></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{{ end }}
